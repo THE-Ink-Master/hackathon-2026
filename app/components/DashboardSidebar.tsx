@@ -52,7 +52,9 @@ export default function DashboardSidebar({
         <div className="flex-col h-30 items-center justify-between border-b p-4">
           <h1 className="text-2xl font-bold text-blue-600">Pathly </h1>
           <br></br>
-          <p className="text-sm font-bold text-black">Learn, Connect, Grow</p>
+          <p className="text-sm font-bold text-black">
+            Learn &middot; Connect &middot; Grow
+          </p>
 
           <button
             onClick={onClose}

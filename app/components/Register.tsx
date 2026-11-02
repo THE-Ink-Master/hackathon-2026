@@ -76,7 +76,7 @@ export default function RegisterPage() {
       <div className="w-full max-w-md rounded-2xl bg-white p-8 shadow-lg">
         {/* Pathly Branding */}
         <div className="mb-8 text-center">
-          <h1 className="text-4xl font-bold text-teal-700">Pathly</h1>
+          <h1 className="text-4xl font-bold text-blue-600">Pathly</h1>
           <p className="mt-2 text-slate-500">Learn. Connect. Grow.</p>
         </div>
 

@@ -1,4 +1,21 @@
-export default function Home() {
+export default function Home() 
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
+
+export default function LoginPage() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
+
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+
+    // Authentication will be connected here.
+    alert("Login interface working! Authentication is not connected yet.");
+  }
+{
     
     return (
     <main className="flex min-h-screen items-center justify-center bg-slate-50 px-4">
